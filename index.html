@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./images/sneakers.png" alt="logo" class="logo">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                <input type="text" placeholder="Search......" class="searchInput">
+                <img src="./images/search.png" width="20" height="20" alt="" class="searchicon">
+                </div>
+            </div>
+        
+            <div class="navItem">
+                <span class="limitedoffer" >Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuitem">AIR FORCE</h3>
+            <h3 class="menuitem">AIR JORDAN</h3>
+            <h3 class="menuitem">BLAZER</h3>
+            <h3 class="menuitem">CRATER</h3>
+            <h3 class="menuitem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slidewrapper">
+            <div class="slideritem">
+                <img src="./images/air.png" alt="air force" class="sliderimg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">AIR FORCE <br>LATEST EDITION</h1>
+                <h2 class="sliderPrice">3000 RS</h2>
+                <a href="#product">
+                    <button class="Buybutton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./images/jordan.png" alt="air jordan" class="sliderimg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">AIR JORDAN <br>LATEST EDITION</h1>
+                <h2 class="sliderPrice">4000 RS</h2>
+                <a href="#product">
+                    <button class="Buybutton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./images/blazer.png" alt="blazer" class="sliderimg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">BLAZER <br>LATEST EDITION</h1>
+                <h2 class="sliderPrice">2500 RS</h2>
+                <a href="#product">
+                    <button class="Buybutton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./images/crater.png" alt="crater" class="sliderimg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">CRATER <br>LATEST EDITION</h1>
+                <h2 class="sliderPrice">3500 RS</h2>
+                <a href="#product">
+                    <button class="Buybutton">BUY NOW</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./images/hippie.png" alt="hippie" class="sliderimg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">HIPPIE <br>LATEST EDITION</h1>
+                <h2 class="sliderPrice">2500 RS</h2>
+                <a href="#product">
+                    <button class="Buybutton">BUY NOW</button>
+                </a>
+            </div>
+        </div>
+    </div>
+<div class="features">
+    <div class="feature">
+        <img src="./images/shipping.png" alt="" class="featureIcon">
+        <span class="featureTitle">Free Shipping</span>
+        <span class="featuredDesc">Free world wide shipping for all orders</span>
+    </div>
+    <div class="feature">
+        <img src="./images/return.png" alt="" class="featureIcon">
+        <span class="featureTitle">7 days Return policy</span>
+        <span class="featuredDesc">Only specific oders are applicable for returning</span>
+    </div>
+    <div class="feature">
+        <img src="./images/gift.png" alt="" class="featureIcon">
+        <span class="featureTitle">Gift CARD</span>
+        <span class="featuredDesc">Get a gift card with every purchase</span>
+    </div>
+    <div class="feature">
+        <img src="./images/contact.png" alt="" class="featureIcon">
+        <span class="featureTitle">Contact Us</span>
+        <span class="featuredDesc">Have questions? Reach out to our support team</span>
+    </div>
+</div>
+<div class="product" id="product">
+    <img src="./images/air.png" alt="AIR FORCE" class="productimg">
+    <div class="productDetails">
+        <h1 class="productTitle">AIR FORCE</h1>
+        <p class="productPrice">3000 RS</p>
+        <p class="productDesc">Experience the iconic style and unmatched comfort of Nike Air Force sneakers. Crafted with premium materials and innovative cushioning technology, these shoes are designed to elevate your performance and keep you looking fresh. Whether you're hitting the streets or the court, Nike Air Force delivers timeless style and reliable support for every step of your journey.</p>
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sizes">
+            <div class="size">7</div>
+            <div class="size">8</div>
+            <div class="size">9</div>
+            <div class="size">10</div>
+        </div>
+        <button class="productButton">BUY NOW</button>
+    </div>
+    <div class="payment">
+        <h2 class="payTitle">Personal Information</h2>
+        <label>Name and Surname</label>
+        <input type="text" placeholder="Enter your name and surname" class="payInput">
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter your phone number" class="payInput">
+        <label>Address</label>
+        <input type="text" placeholder="Enter your address" class="payInput">
+        <h2 class="payTitle">Card Information</h2>
+        <div class="cardIcons">
+            <img src="./images/visa.png" alt="Visa" width="40" class="cardIcon">
+            <img src="./images/master.png" alt="Mastercard" width="40" class="cardIcon">
+        </div>
+        <input type="password" placeholder="Card Number" class="payInput">
+        <div class="cardInfo">
+            <input type="text" placeholder="MM" class="payInput sm">
+            <input type="text" placeholder="yyyy" class="payInput sm">
+            <input type="password" placeholder="CVV" class="payInput sm">
+        </div>
+        <button class="payButton">PAY NOW</button>
+        <span class="closeButton">X</span>
+    </div>
+</div>
+<div class="gallery">
+    <div class="galleryItem">
+        <h1 class="galleryTitle">Be The Change</h1>
+        <img src="https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_1280.jpg" alt="" class="galleryImg">
+    </div>
+    <div class="galleryItem">
+        <img src="https://www.investopedia.com/thmb/oK49oYre_0sFL9wt9lQSSZ7zQhA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/INV_Nike_GettyImages-1694835486-77b3039e28b44abf8eee99d077cb341d.jpg" alt="" class="galleryImg">
+        <h1 class="galleryTitle">Just Do It</h1>
+    </div>
+    <div class="galleryItem">
+        <h1 class="galleryTitle">Find Your Greatness</h1>
+        <img src="https://p0.piqsels.com/preview/847/888/43/air-jordan-fashion-feet-footwear.jpg" alt="" class="galleryImg">
+    </div>
+</div>
+<div class="newSeason">
+    <div class="nsItem">
+        <img src="https://images.pexels.com/photos/11429535/pexels-photo-11429535.jpeg" alt="" class="nsImg">
+    </div>
+    <div class="nsItem">
+        <h3 class="nsTitleSm">New Season Arrivals</h3>
+        <h1 class="nsTitle">Check Out Our New Collection</h1>
+        <p class="nsDesc">Discover the latest collection of Nike sneakers for the new season. From bold designs to innovative technology, our new arrivals are crafted to elevate your style and performance. Whether you're hitting the gym or the streets, find your perfect pair and step into the season with confidence.</p>
+        <a href="#nav" class="nsButton">Choose Now</a>
+    </div>
+    <div class="nsItem">
+        <img src="https://manofmany.com/wp-content/uploads/2024/02/Best-Nike-TNs-of-All-Time.jpg" alt="" class="nsImg">
+    </div>
+</div>
+<footer>
+    <div class="footerLeft">
+        <div class="footerMenu">
+            <h3 class="fMenuTitle">About Us</h3>
+            <ul class="fMenuList">
+                <li class="fListItem">Company Information</li>
+                <li class="fListItem">Contact Us</li>
+                <li class="fListItem">Careers</li>
+                <li class="fListItem">Affiliates</li>
+                <li class="fListItem">Store Locator</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h3 class="fMenuTitle">Useful Links</h3>
+            <ul class="fMenuList">
+                <li class="fListItem">Support</li>
+                <li class="fListItem">Refund Policy</li>
+                <li class="fListItem">FAQ</li>
+                <li class="fListItem">Feedback</li>
+                <li class="fListItem">Stories</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h3 class="fMenuTitle">Products</h3>
+            <ul class="fMenuList">
+                <li class="fListItem">Air Force</li>
+                <li class="fListItem">Air Jordan</li>
+                <li class="fListItem">Blazer</li>
+                <li class="fListItem">Crater</li>
+                <li class="fListItem">Hippie</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerRight">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your email" class="subscribeInput">
+                <button class="subscribeButton">Subscribe</button>
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow Us</h1>
+            <div class="socialIcons">
+                <img src="./images/facebook.png" alt="Facebook" width="30" class="socialIcon">
+                <img src="./images/twitter.png" alt="Twitter" width="30" class="socialIcon">
+                <img src="./images/instagram.png" alt="Instagram" width="30" class="socialIcon">
+                <img src="./images/whatsapp.png" alt="WhatsApp" width="30" class="socialIcon">
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <span class="copyright">© 2026 Nike, Inc. All rights reserved.</span>
+        </div>
+    </div>
+
+                
+    
+<script src="app.js"></script>
+</body>
+</html>
